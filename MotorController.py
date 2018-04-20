@@ -1,17 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Apr 14 18:30:29 2018
+Created on Fri Apr 20 15:37:30 2018
 
 @author: Reegan
 """
 
-class Battery:
+class MotorController:
     
     def __init__(self):
         
-        NumberOfCells = None
-        
-        CellVoltage = None
+        Efficiency = None
         
     def Voltage(self):
         return(self.NumberOfCells*self.CellVoltage)

@@ -23,6 +23,7 @@ class Bike:
         #create empty object properties
         self.mass = None
         
+        
         self.wheel = Wheel()
         
         self.motor = Motor()

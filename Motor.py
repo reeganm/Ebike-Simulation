@@ -16,6 +16,7 @@ class Motor:
         self.kt = None #Nm/A
         self.kV = None #rad/s/V
         self.Resistance = None #ohm
+        self.MaxCurrent = None
         
     def CalcCurrent(self,Speed,Voltage):
         return((Voltage-Speed/self.kV)/self.R)
